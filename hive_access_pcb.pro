@@ -1,4 +1,4 @@
-update=Sat 26 May 2018 12:19:57 PM EDT
+update=Sun 27 May 2018 11:36:28 AM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../kicad/kicad.lib
+LibDir=/home/greg/kicad/template
 [eeschema/libraries]
 LibName1=hive_access_pcb-rescue
 LibName2=power
@@ -59,8 +59,8 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/greg/kicad/template/d1_mini_kicad/library/wemos_mini
-LibName32=relays
-LibName33=maxim
-LibName34=dc-dc
-LibName35=ds2408
+LibName31=relays
+LibName32=maxim
+LibName33=dc-dc
+LibName34=ds2408
+LibName35=d1_mini_kicad/library/wemos_mini
