@@ -673,9 +673,9 @@ F 3 "" H 4550 6700 50  0001 C CNN
 $EndComp
 Text Label 4650 6350 2    60   ~ 0
 ONE_WIRE
-Text Label 5450 6250 0    60   ~ 0
-WIEGAND_BEEP
 Text Label 5450 6150 0    60   ~ 0
+WIEGAND_BEEP
+Text Label 5450 6250 0    60   ~ 0
 WIEGAND_LIGHT
 $Comp
 L +5V #PWR024
@@ -943,10 +943,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 3850 4500 3850
 Wire Wire Line
-	4500 3850 4500 3650
-Wire Wire Line
-	4500 3650 4650 3650
-Wire Wire Line
 	3600 3800 3600 3850
 Connection ~ 3600 3850
 Wire Wire Line
@@ -962,10 +958,6 @@ Wire Wire Line
 	3800 4700 3800 3900
 Wire Wire Line
 	3800 3900 4550 3900
-Wire Wire Line
-	4550 3900 4550 3750
-Wire Wire Line
-	4550 3750 4650 3750
 Connection ~ 3600 4700
 Wire Wire Line
 	4400 2300 4400 2400
@@ -1271,4 +1263,12 @@ Wire Wire Line
 	3100 1300 2700 1300
 Wire Wire Line
 	2700 1300 2700 1350
+Wire Wire Line
+	4650 3750 4500 3750
+Wire Wire Line
+	4500 3750 4500 3850
+Wire Wire Line
+	4550 3900 4550 3650
+Wire Wire Line
+	4550 3650 4650 3650
 $EndSCHEMATC
