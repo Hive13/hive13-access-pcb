@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:hive_access_pcb-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -179,7 +178,7 @@ F 1 "10kΩ" V 3600 4500 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3530 4500 50  0001 C CNN
 F 3 "" H 3600 4500 50  0000 C CNN
 	1    3600 4500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 3250 3150 0    60   ~ 0
 WIEGAND_D1
@@ -560,7 +559,7 @@ F 1 "10kΩ" V 7600 5100 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7530 5100 50  0001 C CNN
 F 3 "" H 7600 5100 50  0001 C CNN
 	1    7600 5100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L +3.3V #PWR018
@@ -696,7 +695,7 @@ Text Label 8000 5300 0    60   ~ 0
 WEMOS_TRIG
 Text Label 5650 3450 0    60   ~ 0
 WEMOS_TRIG
-Text Label 5650 3350 0    60   ~ 0
+Text Label 5650 3650 0    60   ~ 0
 WEMOS_ECHO
 $Comp
 L R R9
@@ -783,7 +782,7 @@ Text Label 1550 3050 2    60   ~ 0
 RELAY_CONTACT
 Text Label 1550 3150 2    60   ~ 0
 CONN_CONTACT
-Text Label 2200 1350 1    60   ~ 0
+Text Label 2400 1350 1    60   ~ 0
 RELAY_CONTACT
 Text Label 1900 2100 0    60   ~ 0
 CONN_CONTACT
@@ -1271,4 +1270,9 @@ Wire Wire Line
 	4550 3900 4550 3650
 Wire Wire Line
 	4550 3650 4650 3650
+Wire Wire Line
+	4650 6550 4450 6550
+Wire Wire Line
+	4450 6550 4450 6250
+Connection ~ 4450 6250
 $EndSCHEMATC
